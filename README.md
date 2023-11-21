@@ -12,3 +12,7 @@ Self installing script:
 After intallation edit the file `/opt/battery_limit/battery_limit` to change the max charge rate.
 
 Script is confirmed to work on an asus A15 tuf506
+
+# Lightdm restarter
+
+for some reason the nvidia drivers have issues on the asus A15 and lightdm wont work the first time it starts. `intall-lightdm-restart-on-boot.sh` mitigates this issue
