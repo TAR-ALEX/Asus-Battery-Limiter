@@ -26,7 +26,6 @@ EOL
 # Reload systemd, enable and start the service
 systemctl daemon-reload
 systemctl enable restart-lightdm-once.service
-systemctl start restart-lightdm-once.service
 
 echo "Service installed and started successfully!"
 
